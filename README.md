@@ -1,6 +1,6 @@
-# Website Portofolio Pribadi - Fahrizal Zakiah Arsyad
+# Website Portofolio
 
-Selamat datang di repositori website portofolio saya. Proyek ini dibangun untuk menampilkan karya dan keahlian saya di bidang **Video Editor & Graphic Designer**. Website ini dirancang agar bersih, modern, dan sepenuhnya responsif.
+Selamat datang di repositori project saya. Project ini dibangun untuk menampilkan karya dan keahlian anda. Website ini dirancang agar bersih, modern, dan sepenuhnya responsif.
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -19,7 +19,7 @@ Anda dapat melihat versi langsung dari website ini di sini:
 
 ## Deskripsi Proyek
 
-Website ini berfungsi sebagai pusat digital untuk menampilkan proyek-proyek yang telah saya kerjakan, baik dalam desain grafis maupun penyuntingan video. Dibangun dengan teknologi web modern, portofolio ini menonjolkan estetika visual yang bersih dan pengalaman pengguna yang mulus di semua perangkat.
+Website ini berfungsi sebagai pusat digital untuk menampilkan proyek-proyek yang telah anda kerjakan. Dibangun dengan teknologi web modern, portofolio ini menonjolkan estetika visual yang bersih dan pengalaman pengguna yang mulus di semua perangkat.
 
 ## Fitur-Fitur Utama ✨
 
@@ -52,7 +52,7 @@ Untuk menjalankan proyek ini di server Anda sendiri, ikuti langkah-langkah berik
 
 1.  **Clone Repositori**
     ```bash
-    git clone [https://github.com/username-anda/nama-repositori.git](https://github.com/username-anda/nama-repositori.git)
+    git clone https://github.com/noqia/porto-izal.git
     ```
 
 2.  **Upload ke Web Server**
@@ -92,11 +92,6 @@ Untuk menjalankan proyek ini di server Anda sendiri, ikuti langkah-langkah berik
 ├── index.html  
 └── README.md  
 
-## Lisensi 📄
-
-Proyek ini dilisensikan di bawah **MIT License**. Lihat file `LICENSE` untuk detail lebih lanjut (jika ada).
-
 ## Kontak & Kredit
 
-- **Pembuat**: Fahrizal Zakiah Arsyad - [LinkedIn](https://www.linkedin.com/in/fahrizalzakiah/) | [Instagram](https://www.instagram.com/fahrizal.za/)
-- **Referensi & Bantuan**: Ulqia Nurhusna
+- **Pembuat**: Ulqia Nurhusna - [LinkedIn](https://www.linkedin.com/in/ulqianurhusna/) | [Instagram](https://www.instagram.com/noqia/)
