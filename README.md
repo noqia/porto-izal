@@ -76,21 +76,21 @@ Untuk menjalankan proyek ini di server Anda sendiri, ikuti langkah-langkah berik
     ```
 
 ## Struktur File 📁
-/
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   ├── images/
-│   │   └── (file gambar Anda)
-│   └── porto/
-│       └── (file-file portofolio Anda)
-├── vendor/
-│   └── (file-file PHPMailer dari Composer)
-├── email.php
-├── index.html
-└── README.md
+/  
+├── assets/  
+│   ├── css/  
+│   │   └── style.css  
+│   ├── js/  
+│   │   └── main.js  
+│   ├── images/  
+│   │   └── (file gambar Anda)  
+│   └── porto/  
+│       └── (file-file portofolio Anda)  
+├── vendor/  
+│   └── (file-file PHPMailer dari Composer)  
+├── email.php  
+├── index.html  
+└── README.md  
 
 ## Lisensi 📄
 
