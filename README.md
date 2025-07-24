@@ -14,8 +14,7 @@ Anda dapat melihat versi langsung dari website ini di sini:
 
 ## Screenshot
 
-![Screenshot Website](./path/to/your/screenshot.png)
-*(**Catatan**: Ganti `./path/to/your/screenshot.png` dengan path sebenarnya ke gambar screenshot website Anda setelah Anda menambahkannya ke repositori)*
+![Screenshot Website](./website.jpeg)
 
 ## Deskripsi Proyek
 
