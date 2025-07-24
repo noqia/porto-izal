@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets//images/favicon.ico" type="image/x-icon">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Fahrizal's <span>Portfolio</span></div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="parallax-bg"></div>
+        <div class="hero-content">
+            <h1>Fahrizal Zakiah Arsyad</h1>
+            <p>Video Editor & Graphic Designer</p>
+            <a href="#portfolio" class="btn">See Portfolio</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <article class="about-content">
+                    <h3>Hi, I'am Fahrizal!</h3>
+                    <p>A creative professional with over one year of experience in media and audio-visual content. I possess expertise in graphic design, video editing, and communication strategies.</p>
+                    <p>With an academic background in Television and Film, I am results oriented, adaptable to dynamic environments, and have a proven track record of delivering effective creative solutions.</p>
+                    
+                    <a href="assets/CV_Fahrizal.pdf" class="btn-download" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    
+                    <h4>Skills:</h4>
+                    <div class="skills">
+                        <span class="skill">Video Editing</span>
+                        <span class="skill">Graphic Designer</span>
+                        <span class="skill">Live Stream Operator</span>
+                        <span class="skill">Audio Engineer</span>
+                        <span class="skill">Videographer</span>
+                        <span class="skill">Adobe Premiere Pro</span>
+                        <span class="skill">Adobe Photoshop</span>
+                        <span class="skill">Adobe Illustrator</span>
+                    </div>
+                </article>
+                
+                <aside>
+                    <img src="/assets/images/foto.JPG" alt="Profil Fahrizal" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Fahrizal Zakiah</h3>
+                        <p>Video Editor & Graphic Designer</p>
+                        <div class="social-links-aside">
+                            <a href="https://www.linkedin.com/in/fahrizalzakiah/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/fahrizal.za/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+
+            <div class="gallery-controls">
+                <button class="btn-filter active" data-filter="all">All</button>
+                <button class="btn-filter" data-filter="video-editor">Video Editing</button>
+                <button class="btn-filter" data-filter="videographer">Videography</button>
+                <button class="btn-filter" data-filter="live-stream">Live Stream</button>
+                <button class="btn-filter" data-filter="graphic-designer">Graphic Design</button>
+            </div>
+
+            <div class="gallery">
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="https://www.instagram.com/p/DIiF6wCzk50/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">
+                    <div>
+                        <img src="/assets/porto/graphic/1.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ar-landscape" data-type="video" data-video-src="/assets/porto/video/After Movie Wisuda 2023.mp4" data-category="videographer" data-link="https://youtu.be/G97pPLljigE?si=lXtN43Ng9JHrpyfl">
+                    <div>
+                        <img src="/assets/porto/video/tm_movie.png" alt="Thumbnail Video Dokumenter">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/f1-gJoWO1xk?si=G_mpmUKzQZwqAVIk">
+                    <div>
+                        <img src="/assets/porto/stream/5.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit8/edit8.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DD6Bj8ryOwM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit8/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ar-square" data-type="video" data-video-src="/assets/porto/video/Teaser GRP 2025.mp4" data-category="videographer" data-link="https://example.com/graphic1"  >
+                    <div>
+                        <img src="/assets/porto/video/tm_teaser.png" alt="Desain Poster Film">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-square" data-type="video" data-video-src="/assets/porto/video/Genfu Berbuka Berkah.mp4" data-category="videographer" data-link="https://example.com/video-editor1"  >
+                    <div>
+                        <img src="/assets/porto/video/tm_gf.png" alt="Desain Poster Film">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-square" data-type="video" data-video-src="/assets/porto/video/Trailer Bang Bani 1.mp4" data-category="videographer" data-link="https://youtu.be/wsxkNGq_3e4?si=NTRHmp37NQcg20FJ"  >
+                    <div>
+                        <img src="/assets/porto/video/tm_trailer.png" alt="Video Iklan Produk">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/BRT-GxsmNFw?si=m8PAKt72gqivQ-Pp"  >
+                    <div>
+                        <img src="/assets/porto/stream/6.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit7/edit7.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DI0vnqZThPS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit7/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/XU_o7r1F40w?si=z93nMbEE8XWLqdAt"  >
+                    <div>
+                        <img src="/assets/porto/stream/8.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="" >
+                    <div>
+                        <img src="/assets/porto/graphic/4.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="" >
+                    <div>
+                        <img src="/assets/porto/graphic/44.png" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit6/edit6.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DHC9z6EzW2S/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit6/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/Us_YYWMUqGU?si=2kr1Sm91zNLG34PC"  >
+                    <div>
+                        <img src="/assets/porto/stream/9.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="https://www.instagram.com/p/C11Rlo3RZRL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/graphic/46.png" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ar-landscape" data-type="video" data-video-src="/assets/porto/video/Genfu Berbuka Berkah 2022.mp4" data-category="videographer" data-link="https://example.com/graphic2">
+                    <div>
+                        <img src="/assets/porto/video/tm_gf_22.png" alt="Desain Branding">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="https://www.instagram.com/p/DIauELET6a7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/graphic/3.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/rO1O_YDYUNg?si=plyUbnord8VVKdKy"  >
+                    <div>
+                        <img src="/assets/porto/stream/7.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit5/edit5.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DJdp8KqzNuS/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit5/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit9/edit9.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DEwi3Umpvkc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit9/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/l-s2ZGu73AM?si=W1ExBMQJ6TqV8lA-"  >
+                    <div>
+                        <img src="/assets/porto/stream/4.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="" >
+                    <div>
+                        <img src="/assets/porto/graphic/45.png" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="" >
+                    <div>
+                        <img src="/assets/porto/graphic/2.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/IdAu5rW1R3c?si=TvV8nLRSIiKXlG_v"  >
+                    <div>
+                        <img src="/assets/porto/stream/1.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit4/edit4.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DGcwxK6pS6e/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit4/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit2/edit2.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DJ_d1Htzu-R/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit2/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-square" data-type="video" data-video-src="/assets/porto/video/Dokumenter Nafilah.mp4" data-category="videographer" data-link="https://example.com/video-editor2"  >
+                    <div>
+                        <img src="/assets/porto/video/tm_dok.png" alt="Video Iklan Produk">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit1/edit1.mp4" data-category="video-editor" data-link="" >
+                    <div>
+                        <img src="/assets/porto/edit/edit1/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="https://www.instagram.com/p/DJLegzQz76f/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/graphic/5.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/1p4T-RGil-k?si=RgiKfBaWTWjOqRWW"  >
+                    <div>
+                        <img src="/assets/porto/stream/3.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="image" data-category="graphic-designer" data-link="" >
+                    <div>
+                        <img src="/assets/porto/graphic/47.png" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-portrait" data-type="video" data-video-src="/assets/porto/edit/edit3/edit3.mp4" data-category="video-editor" data-link="https://www.instagram.com/reel/DITNxwfzIoh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" >
+                    <div>
+                        <img src="/assets/porto/edit/edit3/cover.jpg" alt="Video Pernikahan">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item ar-landscape" data-type="image" data-category="live-stream" data-link="https://www.youtube.com/live/vCZtvKRjzD0?si=bPId9VbWbVe2E3nN"  >
+                    <div>
+                        <img src="/assets/porto/stream/2.jpg" alt="Live Webinar">
+                        <div class="portfolio-overlay">
+                            <button class="btn view-btn">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-container">
+                <div class="experience-slider">
+                    <article class="experience-card">
+                        <div class="card-header">
+                            <h3>Video</h3>
+                            <h3>Editor</h3>
+                            <p>ETC Media</p>
+                            <span class="card-date">May 2025 - Now</span>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Edited various types of videos including e-learning content, product catalogs, promotional materials, and digital content based on client needs.</li>
+                                <li>Handled the full post-production process: cutting, color grading, audio mixing, and motion graphics.</li>
+                                <li>Collaborated with creative teams and clients to ensure the final output aligned with the brief.<li>
+                                <li>Managed multiple projects simultaneously under tight deadlines.</li>
+                                <li>Proficient in Adobe Premiere Pro, After Effects, Audition, and other editing tools.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="experience-card">
+                        <div class="card-header">
+                            <h3>Video Editor & Graphic Designer</h3>
+                            <p>Yayasan Maqdis</p>
+                            <span class="card-date">Oct 2024 - May 2025</span>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Editing up to 10 high-quality videos weekly with smooth cuts and audio synchronization.</li>
+                                <li>Designing around 20 graphic elements per week using Adobe Photoshop & Illustrator.</li>
+                                <li>Creating visual concepts for branding and marketing campaigns.</li>
+                                <li>Ensuring visual consistency with brand guidelines.</li>
+                                <li>Collaborating with creative teams, clients, and stakeholders.</li>
+                                <li>Managing multiple projects efficiently under tight deadlines and quick revisions.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="experience-card">
+                        <div class="card-header">
+                            <h3>Media and Communications</h3>
+                            <p>Madrasah Aliyah Husainiyah</p>
+                            <span class="card-date">Jul 2023 - Oct 2024</span>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Developed and managed the publication of school activities on Instagram, achieving a reach of over 500 accounts within a one-month period, effectively increasing engagement and visibility.</li>
+                                <li>Consistently created compelling content for Instagram, maintaining a daily posting schedule that enhanced audience interaction and showcased school events.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="experience-card">
+                        <div class="card-header">
+                            <h3>Production Assistant Intern</h3>
+                            <p>MNC Media</p>
+                            <span class="card-date">Sep 2023 - Nov 2023</span>
+                        </div>
+                        <div class="card-content">
+                            <ul>
+                                <li>Daily preparation of 30-40 news scripts, ensuring accuracy and clarity for effective communication during live broadcasts.</li>
+                                <li>Daily creation of 30-40 graphics for news segments, enhancing visual storytelling by aligning with the prepared content and ensuring smooth integration during live transmissions.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-btn prev-btn"><i class="fas fa-arrow-left"></i></button>
+                    <button class="slider-btn next-btn"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-form-container">
+                <form id="contactForm" action="email.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Input Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Input Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Input Subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Write Your Message Here..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn submit-btn">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Me</h3>
+                <p>A dedicated Video Editor and Graphic Designer committed to delivering powerful and communicative visuals, blending aesthetics and clear messaging to create engaging, impactful, and memorable content.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> fahrisyad@gmail.com</p>
+                    <p><i class="fas fa-phone"></i><a href="https://wa.me/6281214030785" target="_blank">+62 812 1403 0785</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Bandung, Indonesia</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/fahrizalzakiah/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/fahrizal.za/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 <a href="https://www.linkedin.com/in/ulqianurhusna/">Ulqia Nurhusna</a>. Copyright Protected.</p>
+        </div>
+    </footer>
+
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-lightbox"><i class="fas fa-times"></i></span>
+            <img src="" alt="Portfolio Image" class="lightbox-img">
+            <video src="" controls class="lightbox-video"></video>
+            <h3 class="project-title"></h3>
+            <p class="project-desc"></p>
+            <div class="lightbox-actions">
+                <a href="#" class="btn project-link" target="_blank">Visit</a>
+                <button class="btn btn-outline close-lightbox-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/assets/main.js"></script>
+</body>
+</html>
