@@ -93,4 +93,4 @@ Untuk menjalankan proyek ini di server Anda sendiri, ikuti langkah-langkah berik
 
 ## Kontak & Kredit
 
-- **Pembuat**: Ulqia Nurhusna - [LinkedIn](https://www.linkedin.com/in/ulqianurhusna/) | [Instagram](https://www.instagram.com/noqia/)
+- **Pembuat**: Ulqia Nurhusna - [LinkedIn](https://www.linkedin.com/in/ulqianurhusna/) | [Instagram](https://www.instagram.com/noqia_/)
