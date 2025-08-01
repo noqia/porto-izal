@@ -10,7 +10,7 @@ Selamat datang di repositori project saya. Project ini dibangun untuk menampilka
 ## Live Demo
 
 Anda dapat melihat versi langsung dari website ini di sini:
-**[https://fahrizalportofolio.my.id](https://fahrizalportofolio.my.id)** 🚀
+**[https://fahrizalportofolio.my.id](https://zalporto.sipjadi.my.id)** 🚀
 
 ## Screenshot
 
